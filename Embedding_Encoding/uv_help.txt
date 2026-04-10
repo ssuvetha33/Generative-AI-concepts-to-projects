@@ -1,0 +1,70 @@
+### Check UV installed
+
+```
+uv --version
+```
+
+### 🔹 Install UV (if not installed)
+
+```
+pip install uv
+```
+
+---
+
+### 🔹 Initialize Project
+
+```
+uv init
+```
+
+---
+
+### 🔹 Check Installed Packages
+
+```
+uv pip list
+```
+
+---
+
+### 🔹 Check Available Python Versions
+
+```
+uv python list
+```
+
+---
+
+### 🔹 Create Virtual Environment
+
+Specific version:
+
+```
+uv venv env --python cpython-3.12.18-windows-x86_64-none
+```
+
+Generic:
+
+```
+uv venv <your-env-name> --python <your-python-version>
+```
+
+---
+
+### 🔹 Install Packages
+
+Single package:
+
+```
+uv add <package_name>
+uv pip install <package_name>
+```
+
+From requirements file:
+
+```
+uv add -r requirements.txt
+
+uv pip install -r requirements.txt
+```
