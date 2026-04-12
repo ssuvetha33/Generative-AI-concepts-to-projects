@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+.env.*
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Data files
+*.sqlite3
+*.db
+
+# Model / large artifacts
+*.pt
+*.pth
+*.bin
+*.onnx
+*.ckpt
+*.h5
+
+# Node
+node_modules/
+
+# Temporary files
+tmp/
+temp/
+
+# Interview PDFs
+*interview*.pdf
+*interview*.md
