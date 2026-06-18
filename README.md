@@ -16,6 +16,16 @@ A curated collection of **Generative AI concepts** with corresponding **hands-on
 - **Research Papers**: supporting papers and reading material
 - **Utilities**: helper scripts, configs, and reusable code
 
+### Current Project Folders
+
+- `Embedding_Encoding/`
+- `Transformer/`
+- `nlp-text-encoding-sentiment-analysis/`
+- `multimodal-ai-hub/`
+- `pharma-domain-qlora-finetuning/`
+- `pharma-llm-finetuning-pipeline-HuggingFace/`
+- `Gen-AI-Research-Papers/`
+
 ## Topics Covered
 
 - Embeddings
@@ -26,6 +36,7 @@ A curated collection of **Generative AI concepts** with corresponding **hands-on
 - LLM Applications
 - Fine-tuning concepts
 - Real-world Gen AI use cases
+- Multi-stage LLM fine-tuning pipelines (non-instruction, instruction, and preference tuning)
 
 ## Project Workflow
 
